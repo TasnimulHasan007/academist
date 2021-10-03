@@ -1,0 +1,130 @@
+[
+  {
+    "key": "1121003256",
+    "name": "Agriculture and Vetarinary Medicine",
+    "img": "https://bloximages.chicago2.vip.townnews.com/bedfordgazette.com/content/tncms/assets/v3/editorial/7/9b/79b2afdc-7d34-537c-bfbc-b112b48a6930/5ee79fbcadfd7.image.jpg",
+    "subjects": [
+      "Agriculture",
+      "Farm Management",
+      "Horticulture",
+      "Plant and Crop Sciences",
+      "Veterinary Medicine"
+    ],
+    "description": "Don’t think it is just about ‘working the land’. You’ll study land-based industries, such as rural management, animal medicine, GM crops, food security and climate change.",
+    "price": 49.99
+  },
+  {
+    "key": "2738754042",
+    "name": "Applied and Pure Sciences",
+    "img": "https://files.schudio.com/samworth/imagecache/850x850s/courses/TSCA_Library_of_photos_mFletcher_2015-7347.jpg",
+    "subjects": [
+      "Astronomy",
+      "Biomedical Sciences",
+      "Environmental Sciences",
+      "Forensic science",
+      "Physical Geography"
+    ],
+    "description": "Involves the study of life, nature and literally everything that surrounds us! You’ll develop scientific thinking, high numeracy skills and methodical approach to problems.",
+    "price": 83.54
+  },
+  {
+    "key": "4134726225",
+    "name": "Business and Management",
+    "img": "https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2020/06/22211858/business-management-team.jpg",
+    "subjects": [
+      "Accounting",
+      "Business Studies",
+      "Entrepreneurship",
+      "Marketing",
+      "Transportation and Logistics"
+    ],
+    "description": "Covering finance, accounting, marketing, HR management and administrative studies, you'll gain skills that can open doors for your own initiatives as well as global companies projects.",
+    "price": 66.49
+  },
+  {
+    "key": "1972285901",
+    "name": "Computer Science and IT",
+    "img": "https://storage-prtl-co.imgix.net/endor/articles/2898/images/1605537412_shutterstock_1538502419.jpg",
+    "subjects": [
+      "Computer Science",
+      "Computing",
+      "IT",
+      "Multimedia",
+      "Software"
+    ],
+    "description": "Want to be at the edge of technological innovation? Learn about the design, production and use of computing, information systems and software engineering.",
+    "price": 25.94
+  },
+  {
+    "key": "1551592617",
+    "name": "Creative Arts and Design",
+    "img": "https://dynamicmedia.zuza.com/zz/m/original_/98204534-69EB-48A2-8CC0-FACD76C89426/ny_SyriaFundraiser3_0917_Gallery.jpg",
+    "subjects": [
+      "Art Administration",
+      "Graphic Design",
+      "Industrial Design",
+      "Interior Design"
+    ],
+    "description": "Develop your talent in a creative and practical way! You’ll study the creation of visual work, from painting to computer graphics and video games, including fine art and product design.",
+    "price": 52.48
+  },
+  {
+    "key": "1805246288",
+    "name": "Education and Training",
+    "img": "https://blog.e360.pk/wp-content/uploads/2020/02/education-and-training-programes.jpg",
+    "subjects": [
+      "Adult Education",
+      "Childhood Education",
+      "CPD",
+      "Career Advice",
+      "Padagogy"
+    ],
+    "description": "You will study of how people develop and learn. You can enrol at undergrad or postgrad teacher training. You will have a hands-on experience at a school or university.",
+    "price": 36.92
+  },
+  {
+    "key": "3950248694",
+    "name": "Engineering",
+    "img": "https://d1ac9zce9817ms.cloudfront.net/images/Mechanical%20Engineer%20Desings-Jobs%20in%20Canada-1606890772874.jpg",
+    "subjects": [
+      "Aerospace Engineering",
+      "Civil Engineering",
+      "Marine Engineering",
+      "Quality Control",
+      "Metallurgy"
+    ],
+    "description": "The practical and innovative application of maths and sciences will be used to design, develop and maintain infrastructures, products and systems on a large scale.",
+    "price": 78.38
+  },
+  {
+    "key": "1576212467",
+    "name": "Health and Medicine",
+    "img": "https://i.f1g.fr/media/eidos/640x432_crop/2020/06/08/XVMe9f34d3c-a962-11ea-968e-aabde546e914.jpg",
+    "subjects": [
+      "Complementary Health",
+      "Counselling",
+      "Dentistry",
+      "Midwifery",
+      "Nursing",
+      "Psychology",
+      "Pharmacology"
+    ],
+    "description": "You will study all aspects of the human body for the diagnose, treatment and assessment of patients’ health needs. You’ll have a hands-on learning approach for medicine and surgery.",
+    "price": 45.39
+  },
+  {
+    "key": "1695418474",
+    "name": "Law",
+    "img": "https://us.123rf.com/450wm/stockstudio44/stockstudio441912/stockstudio44191200169/136061641-law-symbol-composition-gavel-of-the-judge-themis-statue-and-scale-of-justice-on-off-white-background.jpg",
+    "subjects": [
+      "Civil Law",
+      "Criminal Law",
+      "International Law",
+      "Legal Advice",
+      "Legal Studies",
+      "Public Law"
+    ],
+    "description": "You will learn how legal systems operate around the world. International law and related areas are popular among international students looking for opportunities worldwide.",
+    "price": 58.43
+  }
+]

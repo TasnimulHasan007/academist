@@ -1,6 +1,6 @@
 /* footer */
 footer {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-text);
   color: var(--text-light);
 }
 
@@ -17,10 +17,6 @@ footer h3 {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--text-light);
-}
-
-.footer-container .brand:hover {
-  color: inherit;
 }
 
 footer .details {
@@ -61,4 +57,10 @@ footer .link {
 
 footer .link:hover {
   color: var(--primary-color);
+}
+
+/* copyright */
+.copyright {
+  text-align: center;
+  background: var(--primary-dark);
 }

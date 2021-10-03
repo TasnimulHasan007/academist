@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+}
+
+.title .underline {
+  height: 3px;
+  width: 60px;
+  background: var(--primary-color);
+}

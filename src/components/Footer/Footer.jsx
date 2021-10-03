@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <Row className="footer-container gx-5">
+        <Row className="gx-5 footer-container">
           <Col md={12} lg={6}>
             <NavLink to="/home" className="brand">
               <i className="fas fa-graduation-cap"></i> Academist
@@ -17,8 +17,9 @@ const Footer = () => {
               <div className="d-flex">
                 <i className="fas fa-quote-left fa-2x"></i>
                 <p>
-                  The staff here is really supportive, teachers are great, the
-                  school has a good structure. Thank you!
+                  The variety of courses is amazing. No other online course
+                  platform comes close to offering as many courses on as many
+                  subjects.
                 </p>
               </div>
               <h5> - Jane Smith</h5>
@@ -64,6 +65,11 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+      <div className="copyright py-3">
+        <Container>
+          <span> Copyright &copy; Academist | 2021 </span>
+        </Container>
+      </div>
     </footer>
   )
 }
