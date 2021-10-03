@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+
+/* variables */
+:root {
+  --primary-color: #ff1949;
+  --primary-dark: #252525;
+  --primary-text: #333;
+}
+
+/* resets */
 input:focus,
 button:focus {
   box-shadow: none !important;
   outline: none !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* app */
+.App {
+  font-family: "Roboto", sans-serif;
 }
