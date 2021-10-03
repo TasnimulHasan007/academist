@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 /* variables */
 :root {
   --primary-color: #ff1949;
   --primary-dark: #252525;
   --primary-text: #333;
+  --text-light: #f6f6f6;
 }
 
 /* resets */
@@ -18,6 +19,9 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 /* app */
 .App {
   font-family: "Roboto", sans-serif;

@@ -11,7 +11,7 @@ const Header = () => {
           {/* brand */}
           <div>
             <NavLink to="/home" className="brand">
-              <i class="fas fa-graduation-cap"></i> Academist
+              <i className="fas fa-graduation-cap"></i> Academist
             </NavLink>
           </div>
           {/* nav links */}

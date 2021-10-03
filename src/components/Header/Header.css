@@ -1,32 +1,35 @@
 /* header */
 header {
-  padding-block: 1rem;
+  padding-block: 1.5rem;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 /* brand */
-header .brand {
+.brand {
   font-weight: 700;
   font-size: 2.5rem;
   text-decoration: none;
   color: var(--primary-dark);
+  line-height: 1;
 }
 
-header .brand i {
+.brand i {
   color: var(--primary-color);
 }
 
 /* nav links */
 header .nav-links {
   display: flex;
+  margin-bottom: 0;
 }
 
 header .nav-link {
+  display: inline-block;
   color: var(--primary-dark);
   font-size: 1.2rem;
   font-weight: 500;
