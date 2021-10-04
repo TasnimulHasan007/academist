@@ -29,10 +29,14 @@ const About = () => {
               <h1>Choose Academist</h1>
               <div className="underline"></div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                impedit sapiente, magnam quidem vel inventore sed rerum eveniet
-                facere, labore esse eaque dignissimos itaque accusantium ipsum,
-                non unde quis voluptatum?
+                Academist is the global e-learning marketplace. Anyone can take
+                a course on the platform, and anyone can publish and sell a
+                course. According to Academist’s official statistics over
+                30,000,000 people have taken a course on Academist, and the
+                overall number of enrolments has surpassed 190,000,000. The
+                platform features 100,000 courses from 42,000 instructors around
+                the world. These figures make Academist the one global platform
+                for online learning.
               </p>
             </div>
           </Col>

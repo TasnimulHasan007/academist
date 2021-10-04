@@ -80,8 +80,8 @@
 }
 
 .comment-container textarea,
-input[type="text"],
-input[type="email"] {
+.comment-container input[type="text"],
+.comment-container input[type="email"] {
   display: block;
   width: 100%;
   padding: 0.8rem;
