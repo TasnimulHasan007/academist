@@ -1,0 +1,115 @@
+.banner {
+  background: url("./img/banner.svg") no-repeat center center/cover;
+  padding-block: 2.5rem;
+}
+.banner h2 {
+  font-size: 3rem;
+}
+
+.blog-container {
+  position: relative;
+}
+
+.blog-container article {
+  padding-block: 1.5rem;
+}
+
+.blog-container p > span {
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.blog-container p > span:hover {
+  color: var(--primary-color);
+}
+
+.blog-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.blog-container p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.blog-container blockquote {
+  display: flex;
+}
+
+.blog-container blockquote i {
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin-right: 1rem;
+  opacity: 0.2;
+}
+
+.blog-container blockquote h3 {
+  font-weight: 400;
+}
+/* author */
+.author-details {
+  background: var(--primary-color);
+  color: var(--text-light);
+}
+
+.author-details img {
+  min-width: 300px;
+}
+
+.author-details p {
+  padding-block: 0.5rem;
+}
+
+.author-details span i {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.author-details span i:hover {
+  color: var(--primary-text);
+}
+
+/* side content */
+.side-content {
+  position: sticky;
+  top: 3rem;
+  overflow: hidden;
+}
+
+.side-content .form {
+  background: var(--text-light);
+}
+
+.side-content .form::before {
+  content: "Free";
+  top: -40px;
+  right: -25px;
+  position: absolute;
+  font-size: 6rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  opacity: 0.1;
+}
+
+.side-content input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem;
+  border: 0;
+  border-bottom: 1px solid var(--primary-text);
+  background: transparent;
+}
+
+.side-content .main-btn {
+  margin-top: 1rem;
+  background: var(--primary-text);
+}
+
+.side-content .main-btn:hover {
+  background: var(--primary-dark);
+}

@@ -8,6 +8,7 @@ import Services from "./components/Services/Services"
 import "./App.css"
 import { useEffect, useState } from "react"
 import About from "./components/About/About"
+import Blog from "./components/Blog/Blog"
 
 function App() {
   // state
@@ -36,6 +37,10 @@ function App() {
           {/* services */}
           <Route path="/services">
             <Services courses={courses}></Services>
+          </Route>
+          {/* blog */}
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           {/* about */}
           <Route path="/about">
