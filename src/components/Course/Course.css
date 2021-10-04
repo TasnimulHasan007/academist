@@ -24,20 +24,7 @@
   font-size: 1.5rem;
   padding-block: 0.5rem;
 }
-/* button */
-.course-card .enroll-btn {
-  border: 0;
-  outline: 0;
-  color: var(--text-light);
-  background: var(--primary-color);
-  font-weight: bold;
-  padding: 10px 30px;
-  transition: 0.3s ease;
-}
 
-.course-card .enroll-btn:hover {
-  background: #c51e42;
-}
 /* subjects */
 .subject {
   background: var(--primary-dark);

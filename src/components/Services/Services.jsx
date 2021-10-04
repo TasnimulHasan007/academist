@@ -1,19 +1,9 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Container, Row } from "react-bootstrap"
 import Course from "../Course/Course"
 import "./Services.css"
 
-const Services = () => {
-  // state
-  const [courses, setCourses] = useState([])
-
-  // use effects
-  useEffect(() => {
-    fetch("./coursesData/coursesData.JSON")
-      .then((res) => res.json())
-      .then((data) => setCourses(data))
-  }, [])
-
+const Services = (props) => {
   return (
     <div>
       <Container className="py-5">
@@ -22,7 +12,7 @@ const Services = () => {
           <div className="underline mx-auto"></div>
         </div>
         <Row className="g-4 mt-2">
-          {courses.map((course) => (
+          {props.courses.map((course) => (
             <Course key={course.key} course={course}></Course>
           ))}
         </Row>

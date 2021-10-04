@@ -6,8 +6,18 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Services from "./components/Services/Services"
 import "./App.css"
+import { useEffect, useState } from "react"
 
 function App() {
+  // state
+  const [courses, setCourses] = useState([])
+
+  // use effects
+  useEffect(() => {
+    fetch("./coursesData/coursesData.JSON")
+      .then((res) => res.json())
+      .then((data) => setCourses(data))
+  }, [])
   return (
     <div className="App">
       <Router>
@@ -17,14 +27,14 @@ function App() {
         <Switch>
           {/* home */}
           <Route path="/home">
-            <Home></Home>
+            <Home courses={courses}></Home>
           </Route>
           <Route exact path="/">
             <Home></Home>
           </Route>
           {/* services */}
           <Route path="/services">
-            <Services></Services>
+            <Services courses={courses}></Services>
           </Route>
           {/* 404 */}
           <Route exact path="*">

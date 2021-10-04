@@ -11,7 +11,7 @@
       "Veterinary Medicine"
     ],
     "description": "Don’t think it is just about ‘working the land’. You’ll study land-based industries, such as rural management, animal medicine, GM crops, food security and climate change.",
-    "price": 49.99
+    "price": 49
   },
   {
     "key": "2738754042",
@@ -25,7 +25,7 @@
       "Physical Geography"
     ],
     "description": "Involves the study of life, nature and literally everything that surrounds us! You’ll develop scientific thinking, high numeracy skills and methodical approach to problems.",
-    "price": 83.54
+    "price": 83
   },
   {
     "key": "4134726225",
@@ -39,7 +39,7 @@
       "Transportation and Logistics"
     ],
     "description": "Covering finance, accounting, marketing, HR management and administrative studies, you'll gain skills that can open doors for your own initiatives as well as global companies projects.",
-    "price": 66.49
+    "price": 66
   },
   {
     "key": "1972285901",
@@ -53,7 +53,7 @@
       "Software"
     ],
     "description": "Want to be at the edge of technological innovation? Learn about the design, production and use of computing, information systems and software engineering.",
-    "price": 25.94
+    "price": 25
   },
   {
     "key": "1551592617",
@@ -66,7 +66,7 @@
       "Interior Design"
     ],
     "description": "Develop your talent in a creative and practical way! You’ll study the creation of visual work, from painting to computer graphics and video games, including fine art and product design.",
-    "price": 52.48
+    "price": 52
   },
   {
     "key": "1805246288",
@@ -80,7 +80,7 @@
       "Padagogy"
     ],
     "description": "You will study of how people develop and learn. You can enrol at undergrad or postgrad teacher training. You will have a hands-on experience at a school or university.",
-    "price": 36.92
+    "price": 36
   },
   {
     "key": "3950248694",
@@ -94,7 +94,7 @@
       "Metallurgy"
     ],
     "description": "The practical and innovative application of maths and sciences will be used to design, develop and maintain infrastructures, products and systems on a large scale.",
-    "price": 78.38
+    "price": 78
   },
   {
     "key": "1576212467",
@@ -110,7 +110,7 @@
       "Pharmacology"
     ],
     "description": "You will study all aspects of the human body for the diagnose, treatment and assessment of patients’ health needs. You’ll have a hands-on learning approach for medicine and surgery.",
-    "price": 45.39
+    "price": 45
   },
   {
     "key": "1695418474",
@@ -125,6 +125,6 @@
       "Public Law"
     ],
     "description": "You will learn how legal systems operate around the world. International law and related areas are popular among international students looking for opportunities worldwide.",
-    "price": 58.43
+    "price": 58
   }
 ]

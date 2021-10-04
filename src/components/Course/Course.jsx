@@ -21,8 +21,8 @@ const Course = (props) => {
           </div>
         </div>
         <div>
-          <h4 className="price py-3 px-3">${price}</h4>
-          <button className="enroll-btn mx-3 mb-3">Enroll Now</button>
+          <h4 className="price py-3 px-3">Price: ${price}</h4>
+          <button className="main-btn mx-3 mb-3">Enroll Now</button>
         </div>
       </div>
     </Col>

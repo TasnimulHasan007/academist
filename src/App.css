@@ -8,7 +8,31 @@
   --text-light: #f6f6f6;
 }
 
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c51e42;
+}
+
 /* resets */
+body {
+  overflow: overlay;
+}
+
 input:focus,
 button:focus {
   box-shadow: none !important;
@@ -25,4 +49,18 @@ a {
 /* app */
 .App {
   font-family: "Roboto", sans-serif;
+}
+/* button */
+.main-btn {
+  border: 0;
+  outline: 0;
+  color: var(--text-light);
+  background: var(--primary-color);
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: 0.3s ease;
+}
+
+.main-btn:hover {
+  background: #c51e42;
 }
