@@ -1,3 +1,20 @@
+/* hero */
+.hero {
+  background: url("./img/background.jpg") no-repeat center center/cover;
+  padding: 6rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: var(--text-light);
+  font-weight: 700;
+}
+
+.hero p {
+  color: var(--text-light);
+  padding-block: 2rem;
+}
+
 /* featured */
 .featured-header h3 {
   margin: 0;
@@ -40,6 +57,7 @@ i {
 }
 
 /* btn */
+.hero .main-btn:hover,
 .featured-header .main-btn:hover {
   color: var(--text-light);
 }
