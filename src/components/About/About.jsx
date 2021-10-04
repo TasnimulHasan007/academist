@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, ProgressBar } from "react-bootstrap"
 import "./About.css"
 import aboutImg from "./img/about.png"
 
@@ -21,6 +21,55 @@ const About = () => {
           </p>
         </Container>
       </div>
+      {/* choose academist */}
+      <Container>
+        <Row className="choose-academist d-flex align-items-center my-5">
+          <Col md={6}>
+            <div className="title">
+              <h1>Choose Academist</h1>
+              <div className="underline"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                impedit sapiente, magnam quidem vel inventore sed rerum eveniet
+                facere, labore esse eaque dignissimos itaque accusantium ipsum,
+                non unde quis voluptatum?
+              </p>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className="progress-bars">
+              <h4>Mentorship</h4>
+              <ProgressBar
+                className="bar"
+                now={78}
+                label={"78%"}
+                variant="danger"
+              />
+              <h4>Education</h4>
+              <ProgressBar
+                className="bar"
+                now={95}
+                label={"95%"}
+                variant="danger"
+              />
+              <h4>Learning</h4>
+              <ProgressBar
+                className="bar"
+                now={66}
+                label={"66%"}
+                variant="danger"
+              />
+              <h4>Motivation</h4>
+              <ProgressBar
+                className="bar"
+                now={82}
+                label={"82%"}
+                variant="danger"
+              />
+            </div>
+          </Col>
+        </Row>
+      </Container>
       {/* banner middle */}
       <Container>
         <Row>

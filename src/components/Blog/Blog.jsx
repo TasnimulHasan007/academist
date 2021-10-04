@@ -114,6 +114,17 @@ const Blog = () => {
                 </div>
               </div>
             </div>
+            {/* comment */}
+            <div className="comment-container">
+              <h3>Leave a comment</h3>
+              <textarea placeholder="Your comment here..."></textarea>
+              <input type="text" placeholder="Your Name" />
+              <input type="email" placeholder="Your Email" />
+              <input type="text" placeholder="Your Website" />
+              <input type="checkbox" /> Save my name, email, and website in this
+              browser for the next time I comment.
+              <button className="main-btn d-block">Send</button>
+            </div>
           </Col>
           <Col lg={3}>
             <aside className="side-content">
@@ -123,6 +134,15 @@ const Blog = () => {
                 <input type="email" placeholder="Email" />
                 <input type="tell" placeholder="Phone" />
                 <button className="main-btn">Get it now</button>
+              </div>
+              <div className="catagories">
+                <h3>Catagories</h3>
+                <span>Art & Design</span>
+                <span>Bussiness</span>
+                <span>IT & Software</span>
+                <span>Languages</span>
+                <span>Programming</span>
+                <span>Technology</span>
               </div>
             </aside>
           </Col>
