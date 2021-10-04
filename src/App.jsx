@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer"
 import Services from "./components/Services/Services"
 import "./App.css"
 import { useEffect, useState } from "react"
+import About from "./components/About/About"
 
 function App() {
   // state
@@ -30,11 +31,15 @@ function App() {
             <Home courses={courses}></Home>
           </Route>
           <Route exact path="/">
-            <Home></Home>
+            <Home courses={courses}></Home>
           </Route>
           {/* services */}
           <Route path="/services">
             <Services courses={courses}></Services>
+          </Route>
+          {/* about */}
+          <Route path="/about">
+            <About></About>
           </Route>
           {/* 404 */}
           <Route exact path="*">

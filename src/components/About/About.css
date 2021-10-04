@@ -1,0 +1,56 @@
+/* banner top */
+.banner-top {
+  background: url("./img/banner.jpg") no-repeat center center/cover;
+  padding: 4rem;
+  text-align: center;
+}
+
+.banner-top h1 {
+  font-size: 3rem;
+}
+
+.banner-top .title .underline {
+  margin-bottom: 2rem;
+}
+
+.banner-top p {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+/* banner-middle */
+.banner-middle h3 {
+  text-transform: uppercase;
+}
+
+.banner-middle p {
+  padding-top: 2rem;
+  text-align: justify;
+}
+
+/* features */
+.features {
+  background: var(--text-light);
+  padding-block: 3rem;
+}
+
+.features .highlight {
+  color: var(--primary-color);
+}
+
+.features p {
+  padding-top: 0.5rem;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.features i {
+  display: block;
+  padding-bottom: 1.5rem;
+  color: var(--primary-text);
+  transition: 0.3s ease;
+}
+
+.feature:hover i {
+  transform: translateY(-10px);
+}

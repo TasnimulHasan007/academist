@@ -10,6 +10,7 @@ const Home = (props) => {
   // return
   return (
     <div>
+      {/* hero */}
       <div className="hero">
         <Container>
           <Col md={6}>
@@ -25,6 +26,7 @@ const Home = (props) => {
           </Col>
         </Container>
       </div>
+      {/* featured services */}
       <Container>
         <Row className="my-5">
           <Col lg={6} md={12}>
@@ -43,6 +45,7 @@ const Home = (props) => {
               ))}
             </Row>
           </Col>
+          {/* free lesson */}
           <Col
             lg={6}
             md={12}

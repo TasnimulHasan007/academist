@@ -8,7 +8,7 @@ const FeaturedCourse = (props) => {
   // return
   return (
     <Col md={6}>
-      <div className="featured h-100">
+      <div className="featured h-100 d-flex flex-column justify-content-between">
         <img src={img} alt="" className="img-fluid" />
         <h3>{name}</h3>
         <span>Price: ${price}</span>
